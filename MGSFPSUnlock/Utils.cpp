@@ -1,4 +1,7 @@
 #include "Utils.h"
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif
 #include <windows.h>
 #include <shlwapi.h>
 #include <string>

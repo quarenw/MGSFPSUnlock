@@ -42,6 +42,7 @@ target_compile_definitions(MGSFPSUnlock PRIVATE
     _USRDLL
     MGS3FPSUNLOCK_EXPORTS
     NDEBUG
+    NOMINMAX
 )
 
 target_compile_options(MGSFPSUnlock PRIVATE -fpermissive)
